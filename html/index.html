@@ -8,6 +8,7 @@
     <!-- Styles CSS -->
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet"/>
     <!-- JS Imports -->
     <script src="../js/bootstrap.bundle.min.js"></script>
     <!-- CDN -->
@@ -39,9 +40,9 @@
                     <div class="dropdown">
                         <i class="mx-1 fa-icon fa-solid fa-language dropdown-toggle" data-bs-toggle="dropdown">&nbsp;</i>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Francais</a></li>
-                          <li><a class="dropdown-item" href="#">العربية</a></li>
-                        </ul>
+                            <li><a class="dropdown-item d-flex justify-content-between" href="#">Francais <i class="flag flag-france"></i></a></li>
+                            <li><a class="dropdown-item d-flex justify-content-between" href="#">العربية <i class="flag flag-morocco"></i></a></li>
+                              </ul>
                      </div>
                     
                      
@@ -56,6 +57,8 @@
                         <ul class="dropdown-menu dropdown-menu-end">
                           <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#signupModal">Creer un nouveau compte</a></li>
                           <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#LoginModal">Se conncter a votre compte</a></li>
+                          <li><a class="dropdown-item" href="../html/espClient.html">Espace Client</a></li>
+
                         </ul>
                      </div>
     
@@ -160,13 +163,19 @@
             <li><a class="nav-link text-light rounded" href="../html/nos-fournis.html">Nos Fournisseurs</a></li>
             <li><a class="nav-link text-light rounded" href="../html/qsn.html">Qui Sommes Nous</a></li>
             <li><a class="nav-link text-light rounded" href="../html/blog.html">Blog</a></li>
-            <li><a class="nav-link text-light rounded" href="../html/espClient.html">Espace Client</a></li>
         </nav>
     </header>
 
+    <section>
+        <article>
+
+        </article>
+    </section>
+
     <footer>
         <div id="footerTopSection" class="py-3">
-            <a href="#headerTop" class="fa-solid fa-angle-up rounded-circle p-2"> </a>
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 178"><defs><style>.cls-1{fill:#0d1840;}</style></defs><path class="cls-1" d="M1920,515H0V337l932,46.6q28,1.39,56,0L1920,337Z" transform="translate(0 -337)"/></svg>
+            <a href="#headerTop" class="fa-solid fa-circle-up p-2"> </a>
             <span>Retour en haut</span>
         </div>
         <div id="footerMiddleSection" class="px-4 pb-4">
@@ -228,8 +237,8 @@
                 <span class="dropdown dropup">
                     <i class="mx-1 fa-icon fa-solid fa-language dropdown-toggle" data-bs-toggle="dropdown">&nbsp;</i>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Francais</a></li>
-                      <li><a class="dropdown-item" href="#">العربية</a></li>
+                      <li><a class="dropdown-item d-flex justify-content-between" href="#">Francais <i class="flag flag-france"></i></a></li>
+                      <li><a class="dropdown-item d-flex justify-content-between" href="#">العربية <i class="flag flag-morocco"></i></a></li>
                     </ul>
                  </span>
             </span>

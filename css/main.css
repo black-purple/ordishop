@@ -63,19 +63,23 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: hsl(var(--sdry-clr));
     height: fit-content;
     color: white;
+    position: relative;
 }
 #footerTopSection a{
-    box-sizing: border-box;
     align-self: center;
     color: hsl(var(--pry-clr));
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-decoration: none;
 }
 #footerTopSection a:hover{
-    background-color: rgba(255, 255, 255, 0.151);
+    color: hsl(var(--sdry-clr));
+}
+#footerTopSection svg{
+    position: absolute;
+    margin-top: 5rem;
+    z-index: -1;
 }
 
 #footerBottomSection:last-child{
@@ -93,6 +97,7 @@ footer{
     font-size: 1.5rem;
 }
 .footerListElements{
+
     font-weight: normal;
     margin-left: -2rem;
     font-size: medium;
@@ -104,4 +109,7 @@ footer{
     position: relative;
     top: .16rem;
     font-size: 2.4rem;
+}
+.flag{
+    transform: scale(1.5);
 }
