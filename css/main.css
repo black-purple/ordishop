@@ -4,6 +4,104 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: hsl(var(--pry-clr));
+    display: flex;
+}
+nav li a{
     text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+nav li{
+    list-style-type: none;
+}
+nav li:hover{
+    background-color: rgba(255, 255, 255, 0.274);
+}
+header:first-child{
+    background-color: hsl(var(--sdry-clr));
+}
+
+#logo{
+    height: 10rem;
+}
+
+.navbar-brand img{
+    height: 3.5rem;
+}
+
+.fa-icon, .fa-icon1{
+    border-radius: .25rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    color: white;
+    transform: scale(1);
+}
+
+.fa-icon:hover{
+    background-color: rgba(255, 255, 255, 0.116);
+    color: hsl(var(--pry-clr));
+}
+.fa-icon1:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+}
+
+.fa-icon:active, .fa-icon1:active{
+    transform: scale(0.9);
+}
+footer{
+    color: white;
+}
+#footerTopSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(var(--sdry-clr));
+    height: fit-content;
+    color: white;
+}
+#footerTopSection a{
+    box-sizing: border-box;
+    align-self: center;
+    color: hsl(var(--pry-clr));
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#footerTopSection a:hover{
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+#footerBottomSection:last-child{
+    background-color: hsl(var(--act-clr));
+    color: white;
+}
+
+#footerMiddleSection{
+    background-color: hsl(var(--pry-clr));
+    height: fit-content;
+}
+#footerMiddleSection ul{
     list-style: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.footerListElements{
+    font-weight: normal;
+    margin-left: -2rem;
+    font-size: medium;
+}
+.fa-brands{
+    font-size: 2rem;
+}
+.cashIcon{
+    position: relative;
+    top: .16rem;
+    font-size: 2.4rem;
 }
