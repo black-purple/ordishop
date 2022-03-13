@@ -1,0 +1,54 @@
+@import url(./vars.css);
+
+#firstSec article:nth-child(1){
+    background-image: url(../img/banner-ordishop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 75%;
+    color: white;
+    height: fit-content;
+    border-radius: 1rem;
+    font-size: larger;
+    box-shadow: 0 0 1rem #0000008a;
+}
+
+#firstSec article:nth-child(2) p{
+    margin-bottom: 3.5rem;
+}
+#firstSec article:nth-child(2){
+    background-image: url(../img/banner-ordishop-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 75%;
+    color: white;
+    height: fit-content;
+    border-radius: 1rem;
+    font-size: x-large;
+    box-shadow: 0 0 1rem #0000008a;
+}
+@media screen and (min-width:720px) {
+    #firstSec article{
+        height: 20rem;
+    }
+}
+#firstSec article:nth-child(2)> button:first-of-type{
+    background-color: hsl(var(--pry-clr));
+    color: hsl(var(--sdry-clr));
+    font-size: 1rem;
+
+}
+#firstSec article:nth-child(2)> button:last-of-type{
+    background-color: hsl(var(--sdry-clr));
+    color: hsl(var(--pry-clr));
+    font-size: 1rem;
+}
+.name{
+    font-family: 'conthrax', sans-serif;
+}
+
+#supSec article{
+    border-radius: 1rem;
+    background-color: #ffffffc4;
+    box-shadow: 0 0 1rem #0000008a;
+}
+

@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <!-- Styles CSS -->
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet"/>
     <!-- JS Imports -->
@@ -16,6 +17,7 @@
     <title>OrdiShop | Home</title>
 </head>
 <body>
+    <main>
     <!-- Header of the page (nav, search, login, language, cart) -->
     <header id="headerTop">
         <div class="navbar navbar-expand-lg d-flex navbar-dark justify-content-between">
@@ -61,7 +63,7 @@
 
                         </ul>
                      </div>
-    
+                    <!-- Login Modal -->
                      <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
                          <div class="modal-dialog modal-dialog-centered">
                          <div class="modal-content">
@@ -75,14 +77,10 @@
                                     <div class="form-floating mb-3 mt-3">
                                       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
                                       <label for="email">Email</label>
-                                      <div class="valid-feedback">Valid.</div>
-                                      <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                                     </div>
                                     <div class="form-floating mt-3 mb-3">
                                       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
                                       <label for="pwd">Password</label>
-                                      <div class="valid-feedback">Valid.</div>
-                                      <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                                     </div>
                                     <input type="checkbox" name="checkbx" id="rememberMe" class="form-check-input mb-4"> <label for="rememberMe"> Se souveir de moi</label><br>
                                     <button type="submit" class="btn btn-outline-success float-end">Se connecter</button>
@@ -91,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    
+                    <!-- Signup Modal -->
                     <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
@@ -105,32 +103,22 @@
                                    <div class="form-floating mb-3 mt-3">
                                     <input type="text" class="form-control" id="nom" placeholder="Entrer nom" name="nom" required>
                                     <label for="name">Nom</label>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                                   </div>
                                   <div class="form-floating mb-3 mt-3">
                                     <input type="text" class="form-control" id="prenom" placeholder="Entrer prenom" name="prenom" required>
                                     <label for="prenom">Prenom</label>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                                   </div>
                                   <div class="form-floating mb-3 mt-3">
                                     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
                                     <label for="email">Email</label>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                                   </div>
                                   <div class="form-floating mt-3 mb-3">
                                     <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
                                     <label for="pwd">Mot de passe</label>
-                                    <div class="valid-feedback">Valid.</div>
-                                    <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                                </div>
                                <div class="form-floating mt-3 mb-3">
                                 <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
                                 <label for="pwd">Confirmer le mot de passe</label>
-                                <div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">Veuillez remplir ce champ.</div>
                                 </div>
                           <input type="checkbox" id="conditions" class="form-check-input mb-5" required> <label for="conditions"> J'ai lu et j'accepte les <a href="#">conditions d'utilisation</a></label>
                                 <button type="submit" class="btn btn-outline-success float-end mt-5">Se connecter</button>
@@ -166,12 +154,35 @@
         </nav>
     </header>
 
-    <section>
-        <article>
-
+    <!-- Definition and connexion section -->
+    <section class="container-fluid row" id="firstSec">
+        <article class="col-sm col-lg-7 m-3 p-5">
+            <h1 class="mb-3">Bienvenue a <span class="name">ORDISHOP</span></h1>
+            <p>Votre portail pour acheter <br><span class="text-success font-weight-bold bg-light p-1 rounded">des ordinateurs de haute gamme</span></p>          
+            <p>Avec des prix convenient et <br><span class="text-success font-weight-bold bg-light p-1 rounded">des coffrets pour chaque budget</span></p>          
+        </article>
+        <article class="col-sm col-lg m-3 p-5">
+            <p>Pour beneficier de toutes les fonctionalites de <span class="name">ORDISHOP</span> connecter<br>vous a votre compte</p>
+            <button type="button" class="rounded-pill btn me-5" data-bs-toggle="modal" data-bs-target="#signupModal">Creer Compte</button>
+            <button type="button" class="rounded-pill btn" data-bs-toggle="modal" data-bs-target="#LoginModal">Se connecter</button>
         </article>
     </section>
-
+    <!-- Suppliers section -->
+    <section class="container-fluid row" id="supSec">
+        <article class="col m-3 p-5">
+            <h2 class="mb-4 text-dark rounded">Nos fournisseurs</h2>
+            <div class="d-flex justify-content-between ">
+                <img src="../img/logo/asus-logo.png" alt="">
+                <img src="../img/logo/hp-logo.png" alt="">
+                <img src="../img/logo/sumsung-logo.png" alt="">
+                <img src="../img/logo/msi-logo.png" alt="">
+                <img src="../img/logo/dell-logo.png" alt="">
+                <img src="../img/logo/lenovo-logo.png" alt=""> 
+            </div>   
+        </article>
+    </section>
+    
+    <!-- Footer (quick links, language, login) -->
     <footer>
         <div id="footerTopSection" class="py-3">
             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 178"><defs><style>.cls-1{fill:#0d1840;}</style></defs><path class="cls-1" d="M1920,515H0V337l932,46.6q28,1.39,56,0L1920,337Z" transform="translate(0 -337)"/></svg>
@@ -182,31 +193,31 @@
             <ul class="d-flex flex-lg-row flex-md-column flex-sm-column flex-column justify-content-between px-5" >
                 <li class="my-4">NOS ORDINATEURS
                     <ul>
-                        <li class="footerListElements">Ordinateurs Bureau</li>
+                        <li class="footerListElements spaceTop">Ordinateurs Bureau</li>
                         <li class="footerListElements">Ordinateurs Portable</li>
                         <li class="footerListElements">Ordinateurs Mini</li>
                     </ul>
                 </li>
                 <li class="my-4">AIDE
                     <ul>
-                        <li class="footerListElements">FAQ</li>
+                        <li class="footerListElements spaceTop">FAQ</li>
                         <li class="footerListElements">Mentions Legales</li>
                         <li class="footerListElements">Contact</li>
                     </ul>
                 </li>
                 <li class="my-4">PRESSE
                     <ul>
-                        <li class="footerListElements">Presse</li>
+                        <li class="footerListElements spaceTop">Presse</li>
                     </ul>
                 </li>
                 <li class="my-4">QUI SOMMES NOUS?
                     <ul>
-                        <li class="footerListElements">Qui sommes nous?</li>
+                        <li class="footerListElements spaceTop">Qui sommes nous?</li>
                     </ul>
                 </li>
                 <li class="my-4">BLOG
                     <ul>
-                        <li class="footerListElements">Blog</li>
+                        <li class="footerListElements spaceTop">Blog</li>
                     </ul>
                 </li>
             </ul>
@@ -244,5 +255,6 @@
             </span>
         </div>
     </footer>
+    </main>
 </body>
 </html>
