@@ -1,7 +1,7 @@
 @import url(./vars.css);
 
 #firstSec article:nth-child(1){
-    background-image: url(../img/banner-ordishop.jpg);
+    background-image: url(../img/banner-os.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 75%;
@@ -16,7 +16,7 @@
     margin-bottom: 3.5rem;
 }
 #firstSec article:nth-child(2){
-    background-image: url(../img/banner-ordishop-2.jpg);
+    background-image: url(../img/banner-os2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 75%;

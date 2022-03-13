@@ -131,7 +131,7 @@ footer{
     }
     body{
         padding: 0 5rem;
-        background-image: url(../img/body-bg.jpg);
+        background-image: url(../img/body-bg.webp);
         background-size: 20rem;
         background-repeat: repeat;
     }
