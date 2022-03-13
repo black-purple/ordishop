@@ -1,0 +1,8 @@
+@import url(./vars.css);
+
+section article{
+    border-radius: 1rem;
+    background-color: #ffffffa4;
+    box-shadow: 0 0 1rem #0000008a;
+    backdrop-filter: blur(5px);
+}
