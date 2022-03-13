@@ -35,7 +35,6 @@
     background-color: hsl(var(--pry-clr));
     color: hsl(var(--sdry-clr));
     font-size: 1rem;
-
 }
 #firstSec article:nth-child(2)> button:last-of-type{
     background-color: hsl(var(--sdry-clr));
@@ -48,7 +47,60 @@
 
 #supSec article{
     border-radius: 1rem;
-    background-color: #ffffffc4;
+    background-color: #ffffffa4;
     box-shadow: 0 0 1rem #0000008a;
+    backdrop-filter: blur(5px);
+}
+#compSec article{
+    border-radius: 1rem;
+    background-color: #474747a4;
+    box-shadow: 0 0 1rem #0000008a;
+    backdrop-filter: blur(5px);
 }
 
+#compSec article div .card img{
+    width: 20rem;
+}
+#compSec article div .card{
+    padding: 2rem;
+    color: white;
+}
+
+#compSec article div .card:nth-child(1){
+    background-color: #90ee903f;
+}
+#compSec article div .card:nth-child(2){
+    background-color: #ffa07a3d;
+}
+#compSec article div .card:nth-child(3){
+    background-color: #ffb6c146;
+}
+#crateSec article{
+    border-radius: 1rem;
+    background-color: #000000a4;
+    box-shadow: 0 0 1rem #0000008a;
+    backdrop-filter: blur(5px);
+}
+#crateSec article .card img{
+    width: 15rem;
+}
+#crateSec article .card{
+    width: 30rem;
+}
+.card-body a{
+    border: .1rem solid hsl(var(--pry-clr));
+    background-color: hsl(var(--sdry-clr));
+    color: hsl(var(--pry-clr));
+}
+
+#crateSec article div .card{
+    padding: 2rem;
+    color: white;
+}
+
+#crateSec article div .card:nth-child(1){
+    background-color: #90ee903f;
+}
+#crateSec article div .card:nth-child(2){
+    background-color: #ffb6c146;
+}
