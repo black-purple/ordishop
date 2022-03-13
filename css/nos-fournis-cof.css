@@ -1,0 +1,21 @@
+@import url(../css/vars.css);
+
+section article{
+    border-radius: 1rem;
+    background-color: #ffffff2d;
+    box-shadow: 0 0 1rem #0000008a;
+    backdrop-filter: blur(5px);
+}
+section {
+    border-radius: 1rem;
+    background-color: #ffffff67;
+    box-shadow: 0 0 1rem #0000008a;
+    backdrop-filter: blur(5px);
+}
+section article p{
+    font-size: 2rem;
+}
+
+#bigCrate, #smCrate{
+    width: 5rem;
+}

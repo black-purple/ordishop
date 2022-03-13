@@ -6,3 +6,6 @@ section article{
     box-shadow: 0 0 1rem #0000008a;
     backdrop-filter: blur(5px);
 }
+section article p{
+    font-size: 2rem;
+}

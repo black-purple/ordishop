@@ -128,6 +128,7 @@ footer{
         z-index: -2;
         background-color: #ffffff36;
         box-shadow: 0 0 1rem #00000036;
+        backdrop-filter: blur(5px);
     }
     body{
         padding: 0 5rem;
@@ -135,4 +136,7 @@ footer{
         background-size: 20rem;
         background-repeat: repeat;
     }
+}
+.name{
+    font-family: 'conthrax', sans-serif;
 }
