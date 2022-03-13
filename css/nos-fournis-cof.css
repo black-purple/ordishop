@@ -19,3 +19,7 @@ section article p{
 #bigCrate, #smCrate{
     width: 5rem;
 }
+
+.caracteristics{
+    font-size: larger;
+}
