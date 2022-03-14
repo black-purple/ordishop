@@ -26,11 +26,6 @@
     font-size: x-large;
     box-shadow: 0 0 1rem #0000008a;
 }
-@media screen and (min-width:720px) {
-    #firstSec article{
-        height: 20rem;
-    }
-}
 #firstSec article:nth-child(2)> button:first-of-type{
     background-color: hsl(var(--pry-clr));
     color: hsl(var(--sdry-clr));
@@ -84,7 +79,6 @@
     width: 30rem;
 }
 .card-body a{
-    border: .1rem solid hsl(var(--pry-clr));
     background-color: hsl(var(--sdry-clr));
     color: hsl(var(--pry-clr));
 }
