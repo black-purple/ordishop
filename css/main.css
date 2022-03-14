@@ -124,7 +124,7 @@ footer{
 }
 
 @media screen and (min-width:720px) {
-    main{
+    #main{
         z-index: -2;
         background-color: #ffffff36;
         box-shadow: 0 0 1rem #00000036;
