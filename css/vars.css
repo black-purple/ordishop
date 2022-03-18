@@ -1,9 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/conthrax');
 :root{
     --pry-clr: 161 100% 38%;
-    --pry-clr-preview: hsl(161, 100%, 38%);
+    --pry-clr-preview: #00c284;
     --sdry-clr: 227 66% 15%;
-    --sdry-clr-preview: hsl(227 66% 15%);
+    --sdry-clr-preview: #0d183f;
     --act-clr: 261 100% 26%;
     --act-clr-preview: hsl(261 100% 26%);
 }
