@@ -11,7 +11,9 @@
     font-size: larger;
     box-shadow: 0 0 1rem #0000008a;
 }
-
+#firstSec{
+    margin-top: 5rem;
+}
 #firstSec article:nth-child(2) p{
     margin-bottom: 3.5rem;
 }
