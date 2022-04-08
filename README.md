@@ -2,10 +2,10 @@
 End year project made using a bunch of web technologies
 
 
-![GitHub top language](https://img.shields.io/static/v1?label=%20&message=HTML5&color=%23E34F26&labelColor=%23ff000000&logo=HTML5)
-![GitHub top language](https://img.shields.io/static/v1?label=%20&message=CSS3&color=%231572B6&labelColor=%23ff000000&logo=Css3&logoColor=%231572B6)
-![GitHub top language](https://img.shields.io/static/v1?label=%20&message=BootStrap5&color=%237952B3&labelColor=%23ff000000&logo=BootStrap)
-![GitHub top language](https://img.shields.io/static/v1?label=%20&message=JavaScript&color=%23F7DF1E&labelColor=%23ff000000&logo=javaScript) and more on the way
+![HTML5](https://img.shields.io/static/v1?label=%20&message=HTML5&color=%23E34F26&labelColor=%23ff000000&logo=HTML5)
+![CSS3](https://img.shields.io/static/v1?label=%20&message=CSS3&color=%231572B6&labelColor=%23ff000000&logo=Css3&logoColor=%231572B6)
+![BootSTrap5](https://img.shields.io/static/v1?label=%20&message=BootStrap5&color=%237952B3&labelColor=%23ff000000&logo=BootStrap)
+![javaScript](https://img.shields.io/static/v1?label=%20&message=JavaScript&color=%23F7DF1E&labelColor=%23ff000000&logo=javaScript) and more on the way
 
 The most used language in this project is:
 
@@ -14,7 +14,7 @@ The most used language in this project is:
 and more on the way 
 
 ## License
-![](https://img.shields.io/github/license/black-purple/ordishop)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-teal.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Contributors
 * [DAKIR ALLAH Abderrahman](https:/github.com/black-purple)
