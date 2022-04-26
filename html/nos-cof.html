@@ -20,9 +20,8 @@
 </head>
 <body class="d-flex flex-column min-vh-100">
     <!-- Header of the page (nav, search, login, language, cart) -->
-    <div id="headerTop"></div>
-    <header class="sticky-top">
-        <div class="navbar navbar-expand-lg d-flex navbar-dark justify-content-between">
+    <header id="headerTop">
+        <div class="navbar navbar-expand-lg d-flex navbar-light justify-content-between">
             <div>
                 <a class="navbar-brand mx-5" href="../html/index.html">
                     <img class="" src="../img/os-logo.webp" alt="Impossible d'afficher le logo">
@@ -30,7 +29,7 @@
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
+                </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
                 <form id="search" class="input-group px-5">
@@ -46,43 +45,46 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item d-flex justify-content-between" href="#">Francais <i class="flag flag-france"></i></a></li>
                             <li><a class="dropdown-item d-flex justify-content-between" href="#">العربية <i class="flag flag-morocco"></i></a></li>
-                              </ul>
-                     </div>
+                            </ul>
+                    </div>
                     
-                     
-                     <!-- Cart -->
-                     <i class="mx-1 fa-icon fa-solid fa-bag-shopping position-relative">
+                    
+                    <!-- Cart -->
+                    <i class="mx-1 fa-icon fa-solid fa-bag-shopping position-relative">
                         <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
-                     </i>
-                     
-                     <!-- Login/Signup -->
-                     <div class="dropdown">
-                         <i class="mx-1 fa-icon fa-regular fa-circle-user dropdown-toggle" data-bs-toggle="dropdown">&nbsp;</i>
+                    </i>
+                    
+                    <!-- Login/Signup -->
+                    <div class="dropdown">
+                        <i class="mx-1 fa-icon fa-regular fa-circle-user dropdown-toggle" data-bs-toggle="dropdown">&nbsp;</i>
                         <ul class="dropdown-menu dropdown-menu-end">
-                          <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#signupModal">Creer un nouveau compte</a></li>
-                          <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#LoginModal">Se conncter a votre compte</a></li>
-                          <li><a class="dropdown-item" href="../html/espClient.html">Espace Client</a></li>
+                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#signupModal">Creer un nouveau compte</a></li>
+                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#LoginModal">Se conncter a votre compte</a></li>
+                        <li><a class="dropdown-item" href="../html/espClient.html">Espace Client</a></li>
 
                         </ul>
-                     </div>
+                    </div>
                     <!-- Login Modal -->
-                     <div class="modal fade" id="LoginModal" tabindex="1" aria-labelledby="LoginModalLabel" aria-hidden="true">
-                         <div class="modal-dialog modal-dialog-centered">
-                         <div class="modal-content">
-                             <div class="modal-header">
-                                 <h5 class="modal-title" id="LoginModalLabel">Se connecter a ORDISHOP</h5>
-                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal fade" id="LoginModal" tabindex="1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="LoginModalLabel">Se connecter a ORDISHOP</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                 <form class="was-validated">
+                                <form class="was-validated">
                                     <h6>Se connecter a un compte existant</h6>
                                     <div class="form-floating mb-3 mt-3">
-                                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
-                                      <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                                    <label for="email">Email</label>
                                     </div>
-                                    <div class="form-floating mt-3 mb-3">
-                                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-                                      <label for="pwd">Password</label>
+                                    <div class="input-group mt-3 mb-3">
+                                        <div class="form-floating form-floating-group flex-grow-1">
+                                            <input type="password" class="form-control rounded-0 rounded-start" id="pwd1" placeholder="Enter password" name="pswd" required>
+                                            <label for="pwd1">Mot de passe</label>    
+                                        </div>                                        
+                                        <button type="button" class="btn rounded-end input-group-text shadow-none hideShowPassword" id="" onclick="showPassword(this)"><i class="fa-solid fa-eye"></i></button>
                                     </div>
                                     <input type="checkbox" name="checkbx" id="rememberMe" class="form-check-input mb-4"> <label for="rememberMe"> Se souveir de moi</label><br>
                                     <button type="submit" class="btn btn-outline-success float-end">Se connecter</button>
@@ -92,43 +94,49 @@
                         </div>
                     </div>
                     <!-- Signup Modal -->
-                    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="signupModal" tabindex="1" aria-labelledby="signupModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="signupModalLabel">Se connecter a ORDISHOP</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                               </div>
-                               <div class="modal-body">
+                            </div>
+                            <div class="modal-body">
                                 <form class="was-validated">
-                                   <h6>Creer un nouveau compte</h6>
-                                   <div class="form-floating mb-3 mt-3">
+                                <h6>Creer un nouveau compte</h6>
+                                <div class="form-floating mb-3 mt-3">
                                     <input type="text" class="form-control" id="nom" placeholder="Entrer nom" name="nom" required>
                                     <label for="name">Nom</label>
-                                  </div>
-                                  <div class="form-floating mb-3 mt-3">
+                                </div>
+                                <div class="form-floating mb-3 mt-3">
                                     <input type="text" class="form-control" id="prenom" placeholder="Entrer prenom" name="prenom" required>
                                     <label for="prenom">Prenom</label>
-                                  </div>
-                                  <div class="form-floating mb-3 mt-3">
+                                </div>
+                                <div class="form-floating mb-3 mt-3">
                                     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
                                     <label for="email">Email</label>
-                                  </div>
-                                  <div class="form-floating mt-3 mb-3">
-                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-                                    <label for="pwd">Mot de passe</label>
-                               </div>
-                               <div class="form-floating mt-3 mb-3">
-                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-                                <label for="pwd">Confirmer le mot de passe</label>
                                 </div>
-                          <input type="checkbox" id="conditions" class="form-check-input mb-5" required> <label for="conditions"> J'ai lu et j'accepte les <a href="#">conditions d'utilisation</a></label>
+                                <div class="input-group mt-3 mb-3">
+                                    <div class="form-floating form-floating-group flex-grow-1">
+                                        <input type="password" class="form-control rounded-0 rounded-start" id="pwd1" placeholder="Enter password" name="pswd" required>
+                                        <label for="pwd1">Mot de passe</label>    
+                                    </div>                                        
+                                    <button type="button" class="btn rounded-end input-group-text shadow-none hideShowPassword" id="" onclick="showPassword(this)"><i class="fa-solid fa-eye"></i></button>
+                                </div>
+                                <div class="input-group mt-3 mb-3">
+                                    <div class="form-floating form-floating-group flex-grow-1">
+                                        <input type="password" class="form-control rounded-0 rounded-start" id="pwd2" placeholder="Enter password" name="pswd" required>
+                                        <label for="pwd2">Confirmer le mot de passe</label>    
+                                    </div>                                        
+                                    <button type="button" class="btn rounded-end input-group-text shadow-none hideShowPassword" onclick="showPassword(this)"><i class="fa-solid fa-eye"></i></button>
+                                </div>
+                                <input type="checkbox" id="conditions" class="form-check-input mb-5" required> <label for="conditions"> J'ai lu et j'accepte les <a href="#">conditions d'utilisation</a></label>
                                 <button type="submit" class="btn btn-outline-success float-end mt-5">Se connecter</button>
-                               </form>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </span>
             </div>
             </div>
@@ -155,6 +163,7 @@
             <li><a class="nav-link text-light rounded" href="../html/blog.html">Blog</a></li>
         </nav>
     </header>
+    <div id="top"></div>>
 
     <section class="p-5 m-3">
         <span id="anchorPointBigCrate"></span>
