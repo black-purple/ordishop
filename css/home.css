@@ -1,4 +1,4 @@
-@import url(./vars.css);
+/* @import url(./vars.css);
 
 #firstSec article:nth-child(1){
     background-image: url(../img/banner-os.webp);
@@ -95,4 +95,147 @@
 }
 #crateSec article div .card:nth-child(2){
     background-color: #ffb6c146;
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+header{
+    background-color: #00113F;
+    font-weight: 500;
+    margin-bottom:-10px ;
+  
+} 
+
+header .btn {
+    background-color: #00DF93;
+    color: #fff;
+    width: auto;
+    border: none;
+}
+
+  .btn:hover{
+      color: #fff;
+  }
+ 
+
+header .input-group {
+    width: 40em;
+    margin: auto;
+
+}
+
+header .nav-item .ins{
+    display: flex;
+    align-items: center;
+    
+}
+header .nav-item .bi{
+    font-size: 20px; 
+    margin-right: 5px;
+}
+header .nav-item .ins:hover{
+    color: #0ef0a5;
+}
+
+
+header .nav-item .icon{
+    background-color: #6bfdcd;
+    padding: 5px 2px 5px 6px;
+    border-radius: 20px;
+
+
+}
+
+header .nav-item .Panier-menu {
+    display: none;
+}
+header .nav-item:hover .Panier-menu {
+    display:block;
+    right: 10px;
+
+}
+
+
+nav .collapse{
+    background-color: #00DF93;
+    margin-top: 0;
+}
+
+header .nav-item .n-label{
+    position: absolute;
+    top: 3%;
+    right: 60%;
+    padding: 0px 5px 1px 5px;
+    border-radius: 15px;
+    background-color: #fe696a;
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+}
+
+/* ====== PUB ======= */
+section .pub{
+    background-image:linear-gradient(50deg ,#011d68 , #00DF93) ;
+    width: 100%;
+    height: 30rem;
+}
+section .pub img{
+    max-width: 50%;
+    height: auto;
+    vertical-align: middle;
+    position: absolute;
+    top: 10%;
+
+}
+
+/*Comment ça fonctionne? #ICON */
+
+ .fonctionne .bi{
+    font-size: 4rem;
+}
+
+section .sale{ 
+    background-image:linear-gradient(50deg ,#011d68 , #00DF93) ;
+    border-radius: 20px;
+    margin:  15px 0 30px 0;
+}
+
+section .sale .cl{
+    font-weight: 500;
+    
+}
+section .sale .card{
+    border: none;
+    border-radius: 15px;
+  
+}
+
+section .sale .card .badge{
+    background-color: #fe696a;
+    padding: 25px 20px 25px 20px;
+    border-radius: 50px;  
+    top: -5%;
+    position: absolute;
+    margin-left: -30px;
+    transform: rotate(-20deg);
+}
+section .sale .card .btn{
+    background-color: #00DF93;
+    color: #fff;
+
+}
+section .sale .card .text-accent{
+    color: #2f0084;
+
+}
+section .card:hover{
+  box-shadow: 0 15px 15px #1b1a1a55;
+  transform: translateY(-6px);
+  transition: 0.3s;
 }
