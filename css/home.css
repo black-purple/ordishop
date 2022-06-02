@@ -1,109 +1,7 @@
-/* @import url(./vars.css);
-
-#firstSec article:nth-child(1){
-    background-image: url(../img/banner-os.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 75%;
-    color: white;
-    height: fit-content;
-    border-radius: 1rem;
-    font-size: larger;
-    box-shadow: 0 0 1rem #0000008a;
-}
-#firstSec{
-    margin-top: 5rem;
-}
-#firstSec article:nth-child(2) p{
-    margin-bottom: 3.5rem;
-}
-#firstSec article:nth-child(2){
-    background-image: url(../img/banner-os2.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 75%;
-    color: white;
-    height: fit-content;
-    border-radius: 1rem;
-    font-size: x-large;
-    box-shadow: 0 0 1rem #0000008a;
-}
-#firstSec article:nth-child(2)> button:first-of-type{
-    background-color: hsl(var(--pry-clr));
-    color: hsl(var(--sdry-clr));
-    font-size: 1rem;
-}
-#firstSec article:nth-child(2)> button:last-of-type{
-    background-color: hsl(var(--sdry-clr));
-    color: hsl(var(--pry-clr));
-    font-size: 1rem;
-}
-#supSec article{
-    border-radius: 1rem;
-    background-color: #ffffffa4;
-    box-shadow: 0 0 1rem #0000008a;
-    backdrop-filter: blur(5px);
-}
-#compSec article{
-    border-radius: 1rem;
-    background-color: #474747a4;
-    box-shadow: 0 0 1rem #0000008a;
-    backdrop-filter: blur(5px);
-}
-
-#compSec article div .card img{
-    width: 20rem;
-}
-#compSec article div .card{
-    padding: 2rem;
-    color: white;
-}
-
-#compSec article div .card:nth-child(1){
-    background-color: #90ee903f;
-}
-#compSec article div .card:nth-child(2){
-    background-color: #ffa07a3d;
-}
-#compSec article div .card:nth-child(3){
-    background-color: #ffb6c146;
-}
-#crateSec article{
-    border-radius: 1rem;
-    background-color: #000000a4;
-    box-shadow: 0 0 1rem #0000008a;
-    backdrop-filter: blur(5px);
-}
-#crateSec article .card img{
-    width: 15rem;
-}
-#crateSec article .card{
-    width: 30rem;
-}
-.card-body a{
-    background-color: hsl(var(--sdry-clr));
-    color: hsl(var(--pry-clr));
-}
-
-#crateSec article div .card{
-    padding: 2rem;
-    color: white;
-}
-
-#crateSec article div .card:nth-child(1){
-    background-color: #90ee903f;
-}
-#crateSec article div .card:nth-child(2){
-    background-color: #ffb6c146;
-} */
-
-
 *{
     padding: 0;
     margin: 0;
-
 }
-
 
 header{
     background-color: #00113F;
@@ -239,3 +137,26 @@ section .card:hover{
   transform: translateY(-6px);
   transition: 0.3s;
 }
+/* SHOP NEW */
+section .bgshop{
+    background-image:linear-gradient(50deg ,#020D25 , #7DBBCA) ;
+    color: #fff;
+    border-radius: 10px;
+  
+}
+section .bgshop .btn{
+    transform:translateY(20rem);
+    transition: 0.3s;
+}
+section .bgshop .btn:hover{
+    background-color: #fff;
+    color: #00113F;
+}
+section .bgshop:hover .btn{
+    transform:translateY(0);
+}
+section .ms-auto{
+  margin-bottom: 20px;
+   margin-right: 20px;
+}
+
