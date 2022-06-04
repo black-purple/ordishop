@@ -110,8 +110,7 @@ section .sale .cl{
 }
 section .sale .card{
     border: none;
-    border-radius: 15px;
-  
+    border-radius: 15px; 
 }
 
 section .sale .card .badge{
@@ -123,12 +122,12 @@ section .sale .card .badge{
     margin-left: -30px;
     transform: rotate(-20deg);
 }
-section .sale .card .btn{
+section .card .btn{
     background-color: #00DF93;
     color: #fff;
 
 }
-section .sale .card .text-accent{
+section  .card .text-accent{
     color: #2f0084;
 
 }
@@ -137,6 +136,19 @@ section .card:hover{
   transform: translateY(-6px);
   transition: 0.3s;
 }
+
+section .nouveautes .vp .btn{
+    color: #2f0084;
+    width: 10rem;
+    padding: 10px;
+   font-size: 15px;
+}
+section .nouveautes .vp .btn:hover{
+    background-color:#2f0084 ;
+    color: #fff;  
+}
+
+
 /* SHOP NEW */
 section .bgshop{
     background-image:linear-gradient(50deg ,#020D25 , #7DBBCA) ;
@@ -160,3 +172,33 @@ section .ms-auto{
    margin-right: 20px;
 }
 
+/*Nos fourmisseurs */
+section .fourni .vp .btn{
+    color: #2f0084;
+    width: 10rem;
+    padding: 10px;
+   font-size: 15px;
+}
+section .fourni .vp .btn:hover{
+    background-color:#2f0084 ;
+    color: #fff;  
+}
+/* Nos coffrets */
+section .coffrets .coff-bg{
+    background-color:  #0D1840;
+}
+section .coffrets .coff-bg h1{
+    background:linear-gradient(140deg ,#00B5FE , #00E7BC) ;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+
+}
+section .coffrets .coff-bg .btn{
+    background:linear-gradient(90deg ,#00B5FE , #00E7BC) ;
+    color: #fff;
+}
+section .coffrets .coff-bg .bg-text{
+    margin-top:10px ;
+ 
+    
+}
