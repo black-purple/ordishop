@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section img {
+    width: 100px;
+}
+section .btn{
+    background-color: #00DF93;
+    color: #fff;
+}
+section .btn:hover{
+    background-color: #01cb88;
+    color: #fff;
+    box-shadow: 0 0.5rem 1.125rem -0.5rem #01a06b;
+}
+ /* Galerie de produits */
+section .produits-mini-img img{
+    display: block;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 5px ;
+    width: 100px; 
+    padding: 10px;   
+    border: 1px solid #0d1840;
+    border-radius: 5px;
+    opacity: .7; 
+    transition: opacity .2s ease-in-out;
+}
+section .produits-mini-img img:hover{
+     opacity: 1; 
+     border: 1px solid #00ad73;
+}
+
+section .produits-mini-img{
+    margin:10% 0 ;
+}
+
+section .img-container img{
+    float: right;
+    margin-top:-23rem ;
+    display: block;
+    width: 80%;
+    cursor: none;
+ 
+}
+section .img-container{
+    position: relative;
+    width: 100%;
+    margin-top: 0.625rem;
+   
+}
+/*-- ZOOM IMAGE ▣  --*/
+section #canvas{
+    display: none;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius:100px;
+    position: absolute;
+}
+@media screen and (max-width: 500px) {
+     section .produits-mini-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: -1rem;
+        margin-left: -1rem;
+        margin-top: 15rem;
+    }
+}
+
+/*Panneaux de produits*/
+section #productPanels .bi{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+   
