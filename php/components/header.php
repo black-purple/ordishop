@@ -1,11 +1,8 @@
 <?php 
-  
-  // function to get thename of the page dynamically
-
   // function to get thename of the page dynamically
   function getPageName():string{
-    // Get the file name of the current page from the uri
     $file = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
+    // Get the file name of the current page from the uri
     switch($file){
       case "index.php":
         return "Home";
@@ -51,7 +48,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Favicon -->
-  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/ordishop/img/favicon.ico" type="image/x-icon">
   <!-- Styles CSS -->
   <link rel="stylesheet" href="/ordishop/css/main.css">
   <link rel="stylesheet" href="/ordishop/css/<?php echo getCssFile();?>">
@@ -72,11 +69,22 @@
 
 <body class="d-flex flex-column min-vh-100">
   <!-- Header of the page (nav, search, login, language, cart) -->
-
-
   <header>
 
     <div class="navbar navbar-expand-lg navbar-light">
+    <div id="google_translate_element"></div> 
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?" cb=googleTranslateElementInit">
+    </script> 
+      
+      <script type="text/javascript"> 
+          function googleTranslateElementInit() { 
+              new google.translate.TranslateElement(
+                  {pageLanguage: 'ar'}, 
+                  'google_translate_element'
+              ); 
+          } 
+      </script> 
+        
       <div class="container">
 
         <a class="navbar-brand d-none d-sm-block flex-shrink-0" href="#">
