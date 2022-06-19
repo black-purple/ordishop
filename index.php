@@ -10,21 +10,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/ordishop/img/pub.jpg" height="500px" class="d-block w-100" alt="Impossible d'afficher l'image">
+      <img src="/img/pub.jpg" height="500px" class="d-block w-100" alt="Impossible d'afficher l'image">
       <div class="carousel-caption d-none d-md-block">
         <h5>Bienvenue a ordishop</h5>
         <p>Votre portail pour acheterdes ordnateurs de haute gamme avec des prix convenient pour chaue budget</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/ordishop/img/pub.jpg" height="500px" class="d-block w-100" alt="...">
+      <img src="/img/pub.jpg" height="500px" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/ordishop/img/pub.jpg" height="500px" class="d-block w-100" alt="...">
+      <img src="/img/pub.jpg" height="500px" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
@@ -101,7 +101,7 @@
 
       <div class="card mb-5 mt-5 p-3">
         <span class="badge ">Sale</span>
-        <img src="/ordishop/img/dell-removebg-preview.png" class="card-img-top" alt="">
+        <img src="/img/dell-removebg-preview.png" class="card-img-top" alt="">
         <div class="card-body">
           <h3 class="card-titel">DELL</h3>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -120,7 +120,7 @@
     <div class="col-md-3">
       <div class="card mb-5 mt-5 p-3">
         <span class="badge ">Sale</span>
-        <img src="/ordishop/img/dell-removebg-preview.png" class="card-img-top" alt="">
+        <img src="/img/dell-removebg-preview.png" class="card-img-top" alt="">
         <div class="card-body">
           <h3 class="card-titel">DELL</h3>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -138,7 +138,7 @@
     <div class="col-md-3">
       <div class="card mb-5 mt-5 p-3">
         <span class="badge ">Sale</span>
-        <img src="/ordishop/img/dell-removebg-preview.png" class="card-img-top" alt="">
+        <img src="/img/dell-removebg-preview.png" class="card-img-top" alt="">
         <div class="card-body">
           <h3 class="card-titel">DELL</h3>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -165,7 +165,7 @@
               <h3 class="mb-4">MSI GF63 Thin 11SC-027XFR :</h3>
               <a class="btn btn-outline-white" href="#">Shop Now</a>
             </div>
-            <img src="/ordishop/img/computers/pc.mci.png" width="300"
+            <img src="/img/computers/pc.mci.png" width="300"
               class="d-block ms-auto justify-content-between align-items-center " alt="">
           </div>
         </div>
@@ -178,7 +178,7 @@
               <h3 class="mb-4">Razer Blade Gaming Laptop :</h3>
               <a class="btn btn-outline-white" href="#">Shop Now</a>
             </div>
-            <img src="/ordishop/img/computers/pc2.png" width="300" class="d-block ms-auto" alt="">
+            <img src="/img/computers/pc2.png" width="300" class="d-block ms-auto" alt="">
 
           </div>
         </div>
@@ -200,7 +200,7 @@
       <div class="col-md-3">
         <div class="card mb-5 p-3">
           <span class="badge ">Sale</span>
-          <img src="/ordishop/img/dell-removebg-preview.png" class="card-img-top" alt="">
+          <img src="/img/dell-removebg-preview.png" class="card-img-top" alt="">
           <div class="card-body">
             <h3 class="card-titel">DELL</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -217,7 +217,7 @@
       <div class="col-md-3">
         <div class="card mb-5 p-3">
           <span class="badge ">Sale</span>
-          <img src="/ordishop/img/dell-removebg-preview.png" class="card-img-top" alt="">
+          <img src="/img/dell-removebg-preview.png" class="card-img-top" alt="">
           <div class="card-body">
             <h3 class="card-titel">DELL</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -234,7 +234,7 @@
       <div class="col-md-3">
         <div class="card mb-5 p-3">
           <span class="badge ">Sale</span>
-          <img src="/ordishop/img/dell-removebg-preview.png" class="card-img-top" alt="">
+          <img src="/img/dell-removebg-preview.png" class="card-img-top" alt="">
           <div class="card-body">
             <h3 class="card-titel">DELL</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -251,7 +251,7 @@
       <div class="col-md-3">
         <div class="card mb-5 p-3">
           <span class="badge ">Sale</span>
-          <img src="/ordishop/img/dell-removebg-preview.png" class="card-img-top " alt="">
+          <img src="/img/dell-removebg-preview.png" class="card-img-top " alt="">
           <div class="card-body">
             <h3 class="card-titel">DELL</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -314,7 +314,7 @@
     <div class="rounded-3  mt-4 text-center text-xl-start coff-bg">
       <div class="d-xl-flex justify-content-between align-items-center px-sm-5 mx-auto" style="max-width: 1226px;">
         <div class="py-5 me-xl-4 mx-auto mx-xl-0" style="max-width: 490px;">
-          <img src="/ordishop/img/os-logo.png" class="mb-4" width="40%" alt="">
+          <img src="/img/os-logo.png" class="mb-4" width="40%" alt="">
           <h1 class="text-light">Nos coffrets</h1>
           <span class="border-gradient"></span>
           <p class="text-light pb-4 bg-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eius
@@ -325,7 +325,7 @@
           </div>
         </div>
 
-        <div><img src="/ordishop/img/forni.png" alt="Image"></div>
+        <div><img src="/img/forni.png" alt="Image"></div>
 
       </div>
     </div>
@@ -334,7 +334,7 @@
 
 </section>
 <div class="text-center mt-4 vp">
-  <img src="/ordishop/img/LOGO ORDISHOP.png" width="20%" alt="logo">
+  <img src="/img/LOGO ORDISHOP.png" width="20%" alt="logo">
 </div>
 
 <!-- Footer (quick links, language, login) -->

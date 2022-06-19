@@ -67,7 +67,7 @@
   <div id="footerBottomSection" class="p-3">
     <span class="d-flex justify-content-between align-items-center px-5">
       <span>
-        <img src="/ordishop/img/os-logo.webp" height="50rem" class="me-5">
+        <img src="/img/os-logo.webp" height="50rem" class="me-5">
         Copyright &copy; 2022 ORDISHOP
       </span>
       <!-- Change language -->

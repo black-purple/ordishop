@@ -48,18 +48,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Favicon -->
-  <link rel="shortcut icon" href="/ordishop/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <!-- Styles CSS -->
-  <link rel="stylesheet" href="/ordishop/css/main.css">
-  <link rel="stylesheet" href="/ordishop/css/<?php echo getCssFile();?>">
-  <link rel="stylesheet" href="/ordishop/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/<?php echo getCssFile();?>">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" />
   <!-- JS scripts -->
-  <script src="/ordishop/js/show_hide_passwd.js" type="text/javascript"></script>
+  <script src="/js/show_hide_passwd.js" type="text/javascript"></script>
   <!-- JS Imports -->
-  <script src="/ordishop/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
   <!-- jquery script -->
-  <script src="/ordishop/js/jquery-3.6.0.min.js"></script>
+  <script src="/js/jquery-3.6.0.min.js"></script>
   <!-- CDN -->
   <script src="https://kit.fontawesome.com/23ca7ab081.js" crossorigin="anonymous"></script>
   <!--CDN ICONS-->
@@ -73,26 +73,14 @@
 
     <div class="navbar navbar-expand-lg navbar-light">
     <div id="google_translate_element"></div> 
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?" cb=googleTranslateElementInit">
-    </script> 
-      
-      <script type="text/javascript"> 
-          function googleTranslateElementInit() { 
-              new google.translate.TranslateElement(
-                  {pageLanguage: 'ar'}, 
-                  'google_translate_element'
-              ); 
-          } 
-      </script> 
-        
       <div class="container">
 
         <a class="navbar-brand d-none d-sm-block flex-shrink-0" href="#">
-          <img src="/ordishop/img/os-logo.png" class="img-fluid" width="130">
+          <img src="/img/os-logo.png" class="img-fluid" width="130">
         </a>
 
         <a class="navbar-brand d-sm-none flex-shrink-0 me-2" href="#">
-          <img src="/ordishop/img/logo ordishop2.png" class="img-fluid" width="50"></a>
+          <img src="/img/logo ordishop2.png" class="img-fluid" width="50"></a>
 
         <button class="navbar-toggler btn-close-white" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -121,12 +109,12 @@
 
               <a class="nav-link dropdown-toggle text text-white" href="#" id="navbarDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="/ordishop/img/langue.png" width="35" alt="">
+                <img src="/img/langue.png" width="35" alt="">
               </a>
 
               <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#"><img src="/ordishop/img/la-france.png" width="20" alt=""> Français</a></li>
-                <li><a class="dropdown-item" href="#"><img src="/ordishop/img/maroc.png" width="20" alt=""> العربية</a></li>
+                <li><a class="dropdown-item" href="#"><img src="/img/la-france.png" width="20" alt=""> Français</a></li>
+                <li><a class="dropdown-item" href="#"><img src="/img/maroc.png" width="20" alt=""> العربية</a></li>
               </ul>
             </li>
             <div class="navbar-tool-icon-box"><i class="navbar-tool-icon ci-user"></i></div>
