@@ -5,11 +5,13 @@ End year project made using a bunch of web technologies
 ![HTML5](https://img.shields.io/static/v1?label=%20&message=HTML5&color=%23E34F26&labelColor=%23ff000000&logo=HTML5)
 ![CSS3](https://img.shields.io/static/v1?label=%20&message=CSS3&color=%231572B6&labelColor=%23ff000000&logo=Css3&logoColor=%231572B6)
 ![BootSTrap5](https://img.shields.io/static/v1?label=%20&message=BootStrap5&color=%237952B3&labelColor=%23ff000000&logo=BootStrap)
-![javaScript](https://img.shields.io/static/v1?label=%20&message=JavaScript&color=%23F7DF1E&labelColor=%23ff000000&logo=javaScript) and more on the way
+![javaScript](https://img.shields.io/static/v1?label=%20&message=JavaScript&color=%23F7DF1E&labelColor=%23ff000000&logo=javaScript)
+![php](https://img.shields.io/static/v1?label=%20&message=PHP&color=%23777BB4&labelColor=%23ff000000&logo=php)
+![mysql](https://img.shields.io/static/v1?label=%20&message=MySQL&color=%234479A1&labelColor=%23ff000000&logo=mysql)
 
 The most used language in this project is:
 
-![GitHub top language](https://img.shields.io/github/languages/top/black-purple/ordishop?color=%23E34F26&label=HTML5&logo=HTML5)
+![GitHub top language](https://img.shields.io/github/languages/top/black-purple/ordishop?color=%23777BB4&label=PHP&logo=php)
 
 and more on the way 
 
