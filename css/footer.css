@@ -6,7 +6,7 @@
     padding: 0;
     user-select: none;
 }
-body{
+/* body{
     background-color: rgb(30, 54, 78);
 }
 html{
@@ -29,7 +29,7 @@ nav li:hover{
 }
 header:first-child{
     background-color: hsl(var(--sdry-clr));
-}
+} */
 #logo{
     height: 10rem;
 }

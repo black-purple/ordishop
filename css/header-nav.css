@@ -18,11 +18,9 @@ header .btn {
     border: none;
 }
 
-  .btn:hover{
-      color: #fff;
-  }
- 
-
+.btn:hover {
+    color: #fff;
+}
 header .input-group {
     width: 40em;
     margin: auto;

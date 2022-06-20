@@ -55,7 +55,8 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?php echo changePaths();?>/img/favicon.ico" type="image/x-icon">
     <!-- Styles CSS -->
-    <link rel="stylesheet" href="<?php echo changePaths();?>/css/main.css">
+    <link rel="stylesheet" href="<?php echo changePaths();?>/css/footer.css">
+    <link rel="stylesheet" href="<?php echo changePaths();?>/css/header-nav.css">
     <link rel="stylesheet" href="<?php echo changePaths();?>/css/<?php echo getCssFile();?>">
     <link rel="stylesheet" href="<?php echo changePaths();?>/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" />
@@ -73,6 +74,8 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
+
+  <!-- Google traduction script -- debut  -->
     <div id="google_translate_element"></div>
 
     <script type="text/javascript">
@@ -85,6 +88,8 @@
 
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
     </script>
+
+    <!-- Google traduction script -- fin  -->
     <!-- Header of the page (nav, search, login, language, cart) -->
     <header>
 
@@ -97,7 +102,7 @@
                 </a>
 
                 <a class="navbar-brand d-sm-none flex-shrink-0 me-2" href="#">
-                    <img src="<?php echo changePaths();?>/img/logo ordishop2.png" class="img-fluid" width="50"></a>
+                    <img src="<?php echo changePaths();?>/img/os-sm-logo.png" class="img-fluid" width="50"></a>
 
                 <button class="navbar-toggler btn-close-white" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -171,5 +176,4 @@
                 </div>
             </div>
         </div>
-
     </header>
