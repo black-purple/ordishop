@@ -11,7 +11,7 @@ End year project made using a bunch of web technologies
 
 The most used language in this project is:
 
-![GitHub top language](https://img.shields.io/github/languages/top/black-purple/ordishop?color=%23E34F26&label=HTML5&logo=HTML5)
+![GitHub top language](https://img.shields.io/github/languages/top/black-purple/ordishop?color=%23777BB4&label=PHP&logo=php)
 
 and more on the way 
 
