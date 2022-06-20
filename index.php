@@ -1,6 +1,40 @@
-<?php include("./php/components/header.php");?>
-<?php include("./php/components/nav.php");?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" />
+    <!-- JS scripts -->
+    <script src="../js/show_hide_passwd.js" type="text/javascript"></script>
+    <!-- JS Imports -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!-- jquery script -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <!-- CDN -->
+    <script src="https://kit.fontawesome.com/23ca7ab081.js" crossorigin="anonymous"></script>
+    <!--CDN ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>OrdiShop | </title>
+</head>
+<body >
+
+<!-- navbar -->
+
+<?php include("./php/navbar.php")?>
+
+
 <!-- Definition and connexion section -->
+
+
 <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -10,25 +44,15 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="<?php echo changePaths();?>/img/pub.jpg" height="500px" class="d-block w-100" alt="Impossible d'afficher l'image">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Bienvenue a ordishop</h5>
-        <p>Votre portail pour acheterdes ordnateurs de haute gamme avec des prix convenient pour chaue budget</p>
-      </div>
+      <img src="../img/pub.jpg"  class="d-block w-100 img-fluid " alt="Impossible d'afficher l'image">
+     
     </div>
     <div class="carousel-item">
-      <img src="<?php echo changePaths();?>/img/pub.jpg" height="500px" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
+      <img src="../img/pub2.jpg"  class="d-block w-100 img-fluid" alt="...">
+   
     </div>
     <div class="carousel-item">
-      <img src="<?php echo changePaths();?>/img/pub.jpg" height="500px" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
+      <img src="../img/pub.jpg" class="d-block w-100 img-fluid" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -85,12 +109,12 @@
     </div>
   </article>
 
-  <!--*** sale *** -->
+  <!--*** En vente *** -->
   <article class="row sale owl-carousel">
 
     <div class=" col-md-3 order-md-2">
       <div class="text-white text-center mb-5 mt-5  cl">
-        <h1>Sale</h1>
+        <h1>En vente</h1>
         <h3>Termine dans: </h3>
         <h3>02j : 21h : 45m</h3>
         <a href="#" class="btn btn-light lg">voire plus</a>
@@ -100,8 +124,8 @@
     <div class="col-md-3">
 
       <div class="card mb-5 mt-5 p-3">
-        <span class="badge ">Sale</span>
-        <img src="<?php echo changePaths();?>/img/dell-removebg-preview.png" class="card-img-top" alt="">
+        <span class="badge ">vente</span>
+        <img src="../img/dell-removebg-preview.png" class="card-img-top img-fluid" alt="">
         <div class="card-body">
           <h3 class="card-titel">DELL</h3>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -119,8 +143,8 @@
 
     <div class="col-md-3">
       <div class="card mb-5 mt-5 p-3">
-        <span class="badge ">Sale</span>
-        <img src="<?php echo changePaths();?>/img/dell-removebg-preview.png" class="card-img-top" alt="">
+        <span class="badge ">vente</span>
+        <img src="../img/dell-removebg-preview.png" class="card-img-top" alt="">
         <div class="card-body">
           <h3 class="card-titel">DELL</h3>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -137,8 +161,8 @@
 
     <div class="col-md-3">
       <div class="card mb-5 mt-5 p-3">
-        <span class="badge ">Sale</span>
-        <img src="<?php echo changePaths();?>/img/dell-removebg-preview.png" class="card-img-top" alt="">
+        <span class="badge ">vente</span>
+        <img src="../img/dell-removebg-preview.png" class="card-img-top" alt="">
         <div class="card-body">
           <h3 class="card-titel">DELL</h3>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -147,7 +171,7 @@
           </div>
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button class="btn "><i class="bi bi-bag-fill"></i></button>
+          <button class="btn"><i class="bi bi-bag-fill"></i></button>
         </div>
       </div>
     </div>
@@ -165,7 +189,7 @@
               <h3 class="mb-4">MSI GF63 Thin 11SC-027XFR :</h3>
               <a class="btn btn-outline-white" href="#">Shop Now</a>
             </div>
-            <img src="<?php echo changePaths();?>/img/computers/pc.mci.png" width="300"
+            <img src="../img/computers/pc.mci.png" class="img-fluid" width="300"
               class="d-block ms-auto justify-content-between align-items-center " alt="">
           </div>
         </div>
@@ -176,16 +200,13 @@
           <div class="d-sm-flex justify-content-between align-items-center  overflow-hidden rounded-3">
             <div class="py-4 my-2 my-md-0 py-md-5 px-4 ms-md-3 text-center text-sm-start ">
               <h3 class="mb-4">Razer Blade Gaming Laptop :</h3>
-              <a class="btn btn-outline-white" href="#">Shop Now</a>
+              <a class="btn btn-outline-white" class="img-fluid" href="#">Shop Now</a>
             </div>
-            <img src="<?php echo changePaths();?>/img/computers/pc2.png" width="300" class="d-block ms-auto" alt="">
+            <img src="../img/computers/pc2.png" width="300" class="d-block ms-auto" alt="">
 
           </div>
         </div>
       </div>
-
-
-
 
 
   </article>
@@ -199,8 +220,8 @@
     <div class="row">
       <div class="col-md-3">
         <div class="card mb-5 p-3">
-          <span class="badge ">Sale</span>
-          <img src="<?php echo changePaths();?>/img/dell-removebg-preview.png" class="card-img-top" alt="">
+          <span class="badge ">En vente</span>
+          <img src="../img/dell-removebg-preview.png" class="card-img-top" alt="">
           <div class="card-body">
             <h3 class="card-titel">DELL</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -216,8 +237,8 @@
 
       <div class="col-md-3">
         <div class="card mb-5 p-3">
-          <span class="badge ">Sale</span>
-          <img src="<?php echo changePaths();?>/img/dell-removebg-preview.png" class="card-img-top" alt="">
+          <span class="badge ">En vente</span>
+          <img src="../img/dell-removebg-preview.png" class="card-img-top" alt="">
           <div class="card-body">
             <h3 class="card-titel">DELL</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -233,8 +254,8 @@
 
       <div class="col-md-3">
         <div class="card mb-5 p-3">
-          <span class="badge ">Sale</span>
-          <img src="<?php echo changePaths();?>/img/dell-removebg-preview.png" class="card-img-top" alt="">
+          <span class="badge ">En vente</span>
+          <img src="../img/dell-removebg-preview.png" class="card-img-top img-fluid" alt="">
           <div class="card-body">
             <h3 class="card-titel">DELL</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -250,8 +271,8 @@
 
       <div class="col-md-3">
         <div class="card mb-5 p-3">
-          <span class="badge ">Sale</span>
-          <img src="<?php echo changePaths();?>/img/dell-removebg-preview.png" class="card-img-top " alt="">
+          <span class="badge ">En vente</span>
+          <img src="../img/dell-removebg-preview.png " class="card-img-top img-fluid" alt="">
           <div class="card-body">
             <h3 class="card-titel">DELL</h3>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -280,25 +301,25 @@
 
       <div class="col-md-3 col-sm-4 col-6">
         <div class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#">
-          <img class="d-block mx-auto" src="<?php echo changePaths();?>/img/logo/asus.webp" style="width: 150px;" alt="">
+          <img class="d-block mx-auto img-fluid" src="../img/logo/asus.webp" style="width: 150px;" alt="">
         </div>
       </div>
 
       <div class="col-md-3 col-sm-4 col-6">
         <div class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter">
-          <img class="d-block mx-auto" src="<?php echo changePaths();?>/img/logo/lenovo.webp" style="width: 150px;" alt="">
+          <img class="d-block mx-auto img-fluid" src="../img/logo/lenovo.webp" style="width: 150px;" alt="">
         </div>
       </div>
 
       <div class="col-md-3 col-sm-4 col-6">
         <div class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter">
-          <img class="d-block mx-auto" src="<?php echo changePaths();?>/img/logo/msi.webp" style="width: 150px;" alt="">
+          <img class="d-block mx-auto img-fluid" src="../img/logo/msi.webp" style="width: 150px;" alt="">
         </div>
       </div>
 
       <div class="col-md-3 col-sm-4 col-6">
         <div class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter">
-          <img class="d-block mx-auto" src="<?php echo changePaths();?>/img/logo/samsung.webp" style="width: 150px;" alt="">
+          <img class="d-block mx-auto img-fluid" src="../img/logo/samsung.webp" style="width: 150px;" alt="">
         </div>
       </div>
 
@@ -314,7 +335,7 @@
     <div class="rounded-3  mt-4 text-center text-xl-start coff-bg">
       <div class="d-xl-flex justify-content-between align-items-center px-sm-5 mx-auto" style="max-width: 1226px;">
         <div class="py-5 me-xl-4 mx-auto mx-xl-0" style="max-width: 490px;">
-          <img src="<?php echo changePaths();?>/img/os-logo.png" class="mb-4" width="40%" alt="">
+          <img src="../img/os-logo.png" class="mb-4" width="40%" alt="">
           <h1 class="text-light">Nos coffrets</h1>
           <span class="border-gradient"></span>
           <p class="text-light pb-4 bg-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eius
@@ -325,7 +346,7 @@
           </div>
         </div>
 
-        <div><img src="<?php echo changePaths();?>/img/forni.png" alt="Image"></div>
+        <div><img src="../img/forni.png" class="img-fluid" alt="Image"></div>
 
       </div>
     </div>
@@ -334,8 +355,11 @@
 
 </section>
 <div class="text-center mt-4 vp">
-  <img src="<?php echo changePaths();?>/img/LOGO ORDISHOP.png" width="20%" alt="logo">
+  <img src="../img/LOGO ORDISHOP.png" class="img-fluid" width="20%" alt="logo">
 </div>
 
 <!-- Footer (quick links, language, login) -->
 <?php include("./php/components/footer.php");?>
+
+</body>
+</html>

@@ -73,7 +73,7 @@
     <title>OrdiShop | <?php echo getPageName();?></title>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column">
 
   <!-- Google traduction script -- debut  -->
     <div id="google_translate_element"></div>

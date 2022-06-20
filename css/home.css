@@ -17,9 +17,9 @@ header .btn {
     border: none;
 }
 
-  .btn:hover{
+header .btn:hover{
       color: #fff;
-  }
+}
  
 
 header .input-group {
@@ -27,6 +27,10 @@ header .input-group {
     margin: auto;
 
 }
+header .input-group .form-control{
+    height: 40px;
+}
+
 
 header .nav-item .ins{
     display: flex;
@@ -58,8 +62,6 @@ header .nav-item:hover .Panier-menu {
     right: 10px;
 
 }
-
-
 nav .collapse{
     background-color: #00DF93;
     margin-top: 0;
@@ -115,8 +117,8 @@ section .sale .card{
 
 section .sale .card .badge{
     background-color: #fe696a;
-    padding: 25px 20px 25px 20px;
-    border-radius: 50px;  
+    padding: 23px 13px 24px 16px;
+    border-radius: 50%;  
     top: -5%;
     position: absolute;
     margin-left: -30px;
@@ -142,6 +144,7 @@ section .nouveautes .vp .btn{
     width: 10rem;
     padding: 10px;
    font-size: 15px;
+   border: 2px solid #2f0084;
 }
 section .nouveautes .vp .btn:hover{
     background-color:#2f0084 ;
@@ -151,14 +154,16 @@ section .nouveautes .vp .btn:hover{
 
 /* SHOP NEW */
 section .bgshop{
-    background-image:linear-gradient(50deg ,#020D25 , #7DBBCA) ;
+    background-image:linear-gradient(140deg ,#00B5FE , #00E7BC) ;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
   
 }
 section .bgshop .btn{
     transform:translateY(20rem);
     transition: 0.3s;
+    border: 1px solid #fff;
+    color: #fff;
 }
 section .bgshop .btn:hover{
     background-color: #fff;
@@ -178,6 +183,7 @@ section .fourni .vp .btn{
     width: 10rem;
     padding: 10px;
    font-size: 15px;
+   border: 2px solid #2f0084;
 }
 section .fourni .vp .btn:hover{
     background-color:#2f0084 ;
