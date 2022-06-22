@@ -22,4 +22,66 @@ imageBox.addEventListener("mousemove",function(e){
 });
 imageBox.addEventListener("mouseout",function(){
   canvas.style.display="none";
-})
+});
+
+// // like dislike
+
+let likeBtn=document.querySelector(".btn-like");
+let iconBtn=document.querySelector("#icon");
+let count=document.querySelector("#count");
+
+let btndis=document.querySelector(".btn-dislike");
+let icondis=document.querySelector("#iconDis");
+let countdis=document.querySelector("#countDis");
+
+let click=false;
+
+
+
+likeBtn.addEventListener("click",function(){ 
+  if(!click){
+  //  alert("like");
+    click=true;
+    iconBtn.innerHTML=`<i class="bi bi-hand-thumbs-up-fill fs-4"></i>`;
+    icondis.innerHTML=`<i class="bi bi-hand-thumbs-down fs-4"></i></i>`;
+    count.textContent++;
+ 
+  }
+  else{
+  //  alert("0 like");
+    click=false;
+    iconBtn.innerHTML=`<i class="bi bi-hand-thumbs-up fs-4"></i>`;
+    count.textContent--;
+  }
+
+});
+
+
+
+btndis.addEventListener("click",function(){ 
+  if(!click){
+  //  alert("like");
+    click=true;
+    icondis.innerHTML=`<i class="bi bi-hand-thumbs-down-fill fs-4"></i>`;
+    iconBtn.innerHTML=`<i class="bi bi-hand-thumbs-up fs-4"></i>`;
+    countdis.textContent++;
+  }
+  else{
+  //  alert("0 like");
+    click=false;
+    icondis.innerHTML=`<i class="bi bi-hand-thumbs-down fs-4"></i></i>`;
+    countdis.textContent--;
+  }
+
+});
+
+
+// jquery ↻ Charger plus d'avis
+$(".product-review").slice(0,3).show();
+$(".plus").on("click",function(){
+  // alert("hello");
+  $(".product-review:hidden").slice(0,1).show();
+  if($(".product-review:hidden").length==0){
+    $(".plus").fadeOut();
+  }
+});
